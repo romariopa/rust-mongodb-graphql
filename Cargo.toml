@@ -1,0 +1,18 @@
+[package]
+name = "RustApi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenv = "0.15.0"
+actix-web = "4.9.0"
+async-graphql = { version = "7.0.9", features = ["dataloader"] }
+dataloader = "0.17.0"
+futures = "0.3.30"
+tokio = { version = "1.40.0", features = ["full"] }
+mongodb = { version = "3.1.0" }
+async-graphql-actix-web = "7.0.9"
+anyhow = "1.0"
+async-trait = "0.1.82"
+serde = "1.0.210"
+log = "0.4.22"
